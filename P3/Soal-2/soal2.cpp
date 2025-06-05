@@ -58,8 +58,7 @@ int main() {
     std::cin >> namaProsesor >> tipeProsesor >> merkProsesor >> hargaProsesor;
     std::cin >> namaVGA >> tipeVGA >> merkVGA >> hargaVGA;
 
-    PCRakitan rakit(namaProsesor, tipeProsesor, merkProsesor, hargaProsesor,
-                    namaVGA, tipeVGA, merkVGA, hargaVGA);
+    PCRakitan rakit(namaProsesor, tipeProsesor, merkProsesor, hargaProsesor, namaVGA, tipeVGA, merkVGA, hargaVGA);
 
     rakit.tampilkanInfo();
 
